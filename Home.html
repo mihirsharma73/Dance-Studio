@@ -1,0 +1,293 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>home.html</title>
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            body{
+                font-family: 'Righteous', cursive;
+                background-color: black;
+            }
+            .logo{
+                margin-left: 200px;
+                padding: 0px;
+            }
+            nav ul{
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                cursor: pointer;
+                margin: 10px;
+                padding: 10px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 5px;
+                padding:5px;  
+                display: block;
+            }
+            nav ul li a:hover{
+                color: darkgray;
+            }
+            .main-slider{
+                width: 768px;;
+                overflow: hidden;
+                position: relative;
+                left: 280px;
+                top: 30px;
+            }
+            .slider{
+                width: 4608px;
+                position: relative;
+                animation-name: slider-image;
+                animation-duration: 30s;
+                animation-iteration-count: infinite;
+            }
+            .slider img{
+                float: left;
+            }
+            @keyframes slider-image{
+                0%  {left: 0px;}
+                10%  {left: 0px;}
+                20% {left: -768px}
+                30% {left: -768px}
+                40% {left: -1536px;}
+                50% {left: -1536px;}
+                60% {left: -2304px;}
+                70% {left: -2304px;}
+                80% {left: -3072px;}
+                90% {left: -3072px;}
+                100% {left: -3840}
+            }
+            h1{
+                color: white;
+                text-align: center;
+                margin-top: 100px;
+                font-size: 90px;
+            }
+            h2{
+                color: white;
+                text-align: center;
+                margin-top: -50px;
+            }
+            h3{
+                color: white;
+                text-align: center;
+                font-size: 
+            }
+            p{
+                color: white;
+                text-align: center;
+                padding: 20px;
+                line-height: 30px;
+                font-size: 18px;
+                margin-top: 180px; 
+            }
+            section{
+                margin-top: 180px;
+            }
+            section img{
+                border: solid white;
+            }
+            .main-content-2-header-h2{
+                font-size: 40px;
+                float: right;
+                margin-top: 70px;
+                margin-right: 120px;
+                text-decoration: underline;
+            }
+            .main-content-2-header-h3{
+                float: right;
+                margin-top: 130px;
+                position: relative;
+                left: 185px;
+                text-decoration: underline;
+            }
+            .main-content-2-text{
+                float: right;
+                font-size: 15px;
+                margin-top: -350px;
+            }
+            section{
+                margin-bottom: -140px;
+            }
+            .main-content-2-h2{
+                font-size: 50px;
+                margin-top: 100px;
+                margin-left: -20px;
+                text-decoration: underline;
+            }
+            .main-content-3-image-slider{
+                width: 800px;
+                margin-top: 400px;
+                overflow: hidden;
+                position: relative;
+                left: 266px;
+                bottom: 200px;
+            }
+            .main-content-3-slider{
+                width: 4000px;
+                position: relative;
+                animation-name: main-content-slider;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+            }
+            .main-content-3-slider img{
+                float: left;
+            }
+            @keyframes main-content-slider{
+                0%  {left: 0px;}
+                10% {left: 0px;}
+                22% {left: -800px;}
+                32% {left: -800px;}
+                44% {left: -1600px}
+                54% {left: -1600px;}
+                66% {left: -2400px;}
+                76% {left: -2400px;}
+                88% {left: -3200px;}
+                100% {left: -3200px}
+            }
+            footer{
+                background-color: #181818;
+            }
+            .img-location{
+                margin-left: 150px;
+                margin-top: 10px;
+            }
+            .footer-text-location{
+                font-size: 16px;
+                margin-top: -50px;
+                margin-right: 700px;
+            }
+            .img-email{
+                margin-left: 150px;
+            }
+            .footer-text-email{
+                font-size: 16px;
+                margin-top: -60px;
+                margin-right: 720px;
+            }
+            .img-phone{
+                margin-left: 160px;
+            }
+            .footer-text-phone{
+                font-size: 16px;
+                margin-top: -50px;
+                margin-right: 780px;
+                text-decoration: underline;
+            }
+            .facebook{
+                margin-left: 900px;
+                margin-top: -300px;
+            }
+            .instagram{
+                margin-left: 1000px;
+                margin-top: -300px;
+            }
+            .twitter{
+                margin-left: 1100px;
+                margin-top: -300px;
+            }            
+        </style>
+    
+    </head>
+    <body> 
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <!--LOGO-->
+        <div class="logo">
+            <img src="Images/logo.png" width="300px">
+        </div>
+        
+        <!--NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Plans.html">PLANS</a></li>
+                <li><a href="Bookings.html">BOOKINGS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--IMAGE SLIDER-->
+        <div class="main-slider">
+            <div class="slider">
+                <img src="Images/studio1.jpeg">
+                <img src="Images/studio2.jpeg">
+                <img src="Images/studio3.jpeg">
+                <img src="Images/studio4.jpeg">
+                <img src="Images/studio5.jpeg">
+                <img src="Images/studio6.jpeg">
+            </div>
+        </div>
+        <!--Header-->
+        <h1> STEP UP</h1>
+        <h2> WELCOMES YOU TO</h2>
+        <h3> Celebrate The Power of Dance</h3>
+        
+        <!--MAIN-CONTENT-1-->
+        
+        <p>STEP UP is home to all dancers to explore the best in them no matter what their age and experience is.<br>We believe in providing world class dance education which enables our students to become performers of <br> global standards. We are offering training programs which students can customise as per their interests <br> from 20 different dance styles. We strive to offer a positive environment for dancers to grow and have a <br> great learning experience. </p>
+        
+        <!--MAIN-CONTENT-2-->
+        
+        <section>
+            <img src="Images/image1.jpg" width="55%">
+            <h2 class="main-content-2-header-h2">STEP UP STUDIO </h2>
+            <h3 class="main-content-2-header-h3"> Mumbai </h3>
+            <p class="main-content-2-text">4280 sq ft of haven for dancers with a spectacular view of the marsh lands.<br>
+            Our Dance Academy offers a large variety of dance classes for all skill levels. Our <br> experienced instructors are passionate about helping each dancer achieve their <br> highest potential, while also having as much fun as possible.</p>   
+            
+             <h2 class="main-content-2-h2"> STUDIOS </h2>
+        </section>
+    
+        <!--MAIN-CONTENT-3-->
+        <div class="main-content-3-image-slider">
+            <div class="main-content-3-slider">
+                <img src="Images/dance1.jpg">
+                <img src="Images/dance2.jpg"> 
+                <img src="Images/dance3.jpg">
+                <img src="Images/dance4.jpg">
+                <img src="Images/dance5.jpg">
+            </div>
+        </div>
+    </body>
+    
+    <!--FOOTER-->
+    
+    <footer>
+        <<img src="https://img.icons8.com/cotton/40/000000/place-marker.png"/ class="img-location">
+        <p class="footer-text-location">STEP UP Studio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p><p class="footer-text-location"> 602, Shri Sai Corporate Park,<br> Runwal Nagar, Thane West,&nbsp;&nbsp;&nbsp;<br> &nbsp; Mumbai, Maharashtra 400602</p>
+        
+        
+        
+        <img src="https://img.icons8.com/officel/30/000000/phone.png"/ class="img-phone">
+        <p class="footer-text-phone"> +91 9372451766</p>
+
+        
+            
+        <img src="https://img.icons8.com/plasticine/60/000000/filled-message.png"/ class="img-email">
+        <p class="footer-text-email">info.stepup@gmail.com</p>
+        
+        
+         <a href="https://www.facebook.com/mihir.sharma.1234" target="_blank">
+             <img src="https://img.icons8.com/officel/60/000000/facebook-new.png"/ class="facebook">
+        </a>
+        
+        <a href="https://www.instagram.com/mihirsharma2702/" target="_blank">    
+            <img src="https://img.icons8.com/offices/60/000000/instagram-new.png"/ class="instagram">
+        </a>
+        
+        <a href="https://twitter.com/MIHIRSH22743850" target="_blank">
+            <img src="https://img.icons8.com/officel/60/000000/twitter-circled.png"/ class="twitter">
+        </a>
+    </footer>
+</html>

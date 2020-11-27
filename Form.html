@@ -1,0 +1,375 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Form.html</title>
+        
+        <style>
+             html{
+                scroll-behavior: smooth;
+            }
+            body{
+                font-family: 'Righteous', cursive;
+                background-color: black;
+            }
+            .logo{
+                margin-left: 200px;
+                padding: 0px;
+            }
+            nav ul{
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                cursor: pointer;
+                margin: 10px;
+                padding: 10px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 5px;
+                padding:5px;  
+                display: block;
+            }
+            nav ul li a:hover{
+                color: darkgray;
+            }
+            video{
+                margin-left: 250px;
+                margin-top: 50px;
+            }
+            .head-text{
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                margin-left: 1000px;
+                position: relative;
+                right: 500px;
+                margin-top: 90px;
+                border: solid pink;
+                background-color: pink;
+            }
+            section{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; 
+                margin-top: 90px;
+            }
+            section div{
+                color: white;
+            }
+            p{
+                font-size: 20px;
+                padding: 40px;
+                text-align: end;
+            }
+            h2{
+                margin: 50px;
+                text-align: center;
+                font-size: 50px;
+            }
+            .box-1{
+                width: 33%;
+                height: 500px;
+                background-color: lightgray;
+                border: 1px soild lightgray;
+            }
+            .box-2{
+                width: 33%;
+                height: 500px;
+                background-color: #FFAA4D;
+                border: 1px solid #FFAA4D;
+            }
+            .box-3{
+                width: 33%;
+                height: 500px;    
+                background-color: lightgray;
+                border: 1px solid lightgray;
+            }
+            .box-4{
+                width: 33%;
+                height: 500px;
+                background-color: #EDA2A2;
+                border: 1px solid #EDA2A2;
+                margin-top: 30px;
+            }
+            .box-5{
+                width: 33%;
+                height: 500px;
+                background-color: lightgray;
+                border: 1px solid lightgray;
+                margin-top: 30px;
+            }
+            .box-6{
+                width: 33%;
+                height: 500px;
+                background-color: #EDA2A2;
+                border: 1px solid #EDA2A2;
+                margin-top: 30px;
+            }
+            .box-7{
+                width: 33%;
+                height: 500px;
+                background-color: lightgray;
+                border: 1px solid lightgray;
+                margin-top: 30px;
+            }
+            form{
+                color: white;
+                text-align: center;
+                border: solid gray;
+                background: transparent;
+                width: 500px;
+                margin-left: 420px;
+                margin-top: 150px;
+                margin-bottom: 150px;
+            }
+            label{
+                font-size: 12px;
+                margin-right: 140px;
+            }
+            .input{
+                width: 200px;
+                height: 30px;
+                color: white;
+                background-color: black;
+            }
+            .input1{
+                width: 200px;
+                height: 30px;
+                color: white;
+                background-color: black;
+            }
+            .label1{
+                font-size: 12px;
+                margin-right: 150px;
+            }
+             .input2{
+                width: 200px;
+                height: 30px;
+                color: white;
+                background-color: black;
+            }
+            .label2{
+                font-size: 12px;
+                margin-right: 120px;
+            }
+            .label3{
+                font-size: 12px;
+                margin-right: 40px;
+            }
+            #ref{
+                width: 200px;
+                height: 30px;
+                color: white;
+                background-color: black;
+            }
+            #sub{
+                background-color: gray;
+                color: white;
+                height: 40px;
+                width: 100px;
+                font-size: 16px;
+            }
+            #sub:hover{
+                background-color: black;
+                color: white;
+            }
+            footer{
+                background-color: #181818;
+            }
+            .img-location{
+                margin-left: 150px;
+            }
+            .footer-text-location{
+                color: white;
+                margin-right: 810px;
+                margin-top: -60px;
+            }
+             .img-phone{
+                margin-left: 160px;
+            }
+            .footer-text-phone{
+                color: white;
+                margin-right: 930px;
+                margin-top: -60px;
+            }
+             .img-email{
+                margin-left: 150px;
+            }
+            .footer-text-email{
+                color: white;
+                margin-right: 860px;
+                margin-top: -75px;
+            }
+            .facebook{
+                margin-left: 900px;
+                margin-top: -320px;
+            }
+            .instagram{
+                margin-left: 1000px;
+                margin-top: -320px;
+            }
+            .twitter{
+                margin-left: 1100px;
+                margin-top: -320px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <!--LOGO-->
+        <div class="logo">
+            <img src="Images/logo.png" width="300px">
+        </div>
+        
+        <!--NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Plans.html">PLANS</a></li>
+                <li><a href="Bookings.html">BOOKINGS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <!--VIDEO-->
+        <video autoplay controls>
+            <source src="Images/Form.mp4" type="video/mp4">
+        </video>
+        
+        <p class="head-text"> Weekly Schedule</p>
+        
+        
+        <!--MAINFLEX-->
+        <section>
+            <div class="box-1">
+                <h2>MONDAYS</h2>
+                <p>6-7:15 PM | STREETS CHOREOGRAPHY</p><br>
+            </div>
+        
+            <div class="box-2">
+                <h2>TUESDAYS</h2>
+                <p>6-7:15 PM | CONTEMPORARY <br> <br>
+                    7:45-9 PM | HOUSE
+                </p>
+            </div>
+            
+            <div class="box-3">
+                <h2>WEDNESDAYS</h2>
+                <p>6-7:15 PM | DANCEHALL<br><br>
+                    7:45-9 PM | HIP-HOP</p>
+            </div>
+        
+            <div class="box-4">
+                <h2>THURSDAYS</h2>
+                <p>6-7:15 PM | BOLLYWOOD <br><br>
+                    7:45-9 PM | JAZZ FUNK
+                </p>
+            </div>
+            
+            <div class="box-5">
+                <h2>FRIDAYS</h2>
+                <p>6-7:15 PM | KATHAK <br><br>
+                    7:45-9 PM | LATIN FUSION
+                </p>
+            </div>
+            
+            <div class="box-6">
+                <h2>SATURDAYS</h2>
+                <p>9-10:15 AM | PILATES<br><br>
+                    11-12:15 PM | CONTEMPORARY<br><br>
+                    2:45-4 PM | BEGINNER'S BALLET<br><br>
+                    5-6:15 PM | WHACKING<br><br>
+                    7-8:15 PM | CHOREOGRAPHY CLASS<br><br>
+                </p>
+            </div>
+            
+            <div class="box-7">
+                <h2>SUNDAYS</h2>
+                <p>9-10:15 AM | YOGA FOR DANCERS<br><br>
+                    11-12:15 PM | ELEMENTAL UNDERSTANDING OF CONTEMPORARY<br><br>
+                    3-4:15 PM | BOLLYWOOD<br><br>
+                    5-6:15 PM | KIDS BATCH<br><br>
+                </p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--FORM-->
+        
+         <form action="sharmamihir73@gmail.com" method="post" enctype="text/plain">
+                <h2 class="h2">SIGN UP FORM</h2>
+                
+                <label for="First Name"> First Name</label><br>
+                <input type="text" class="input">
+                <br>
+                <br>
+                <label for="Last Name">Last Name </label><br>
+                <input type="text" class="input">
+                <br>
+                <br>
+                <label for="email-id" class="label1">Email-ID</label><br>
+                <input type="email" class="input1">
+                <br>
+                <br>
+                <label for="phone number" class="label2">Phone Number</label><br>
+                <input type="number" class="input2">
+                <br>
+                <br>
+                <label for="How did you hear about us?" class="label3">How did you hear about us?</label> <br>
+                <select name="Reference" id="ref">
+                    <option></option>
+                    <option value="From a Friend">From a Friend</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Google">Google</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" name="" id="sub">
+             <br>
+             <br>
+            </form>
+    </body>
+        
+    <!--FOOTER-->
+    <footer>
+        <img src="https://img.icons8.com/cotton/40/000000/place-marker.png"/ class="img-location">
+        <p class="footer-text-location">STEP UP Studio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <br>
+        602, Shri Sai Corporate Park,<br> Runwal Nagar, Thane West,&nbsp;&nbsp;&nbsp;&nbsp;<br> Mumbai, Maharashtra 400602</p>
+        
+        
+        <img src="https://img.icons8.com/officel/30/000000/phone.png"/ class="img-phone">
+        <p class="footer-text-phone"> +91 9372451766</p>
+        
+        
+        
+        <img src="https://img.icons8.com/plasticine/60/000000/filled-message.png"/ class="img-email">
+        <p class="footer-text-email">info.stepup@gmail.com</p>
+        
+        
+         <a href="https://www.facebook.com/mihir.sharma.1234" target="_blank">
+             <img src="https://img.icons8.com/officel/60/000000/facebook-new.png"/ class="facebook">
+        </a>
+        
+        <a href="https://www.instagram.com/mihirsharma2702/" target="_blank">    
+            <img src="https://img.icons8.com/offices/60/000000/instagram-new.png"/ class="instagram">
+        </a>
+        
+        <a href="https://twitter.com/MIHIRSH22743850" target="_blank">
+            <img src="https://img.icons8.com/officel/60/000000/twitter-circled.png"/ class="twitter">
+        </a>
+    </footer>
+</html>
